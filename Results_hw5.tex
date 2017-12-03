@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\title{Métodos Computacionales - Tarea 5}
+\author{David Barbosa}
+
+\maketitle
+
+
+\section{Introduction}
+Este estudio consiste en medir las velocidades de las estrellas en funcion de la distancia de estas al centro de la galaxia y luego, a partir de estas velocidades uno puede inferir la cantidad de masa que debe tener la galaxia
+
+\begin{equation}
+    \label{simple_equation}
+    \alpha = \sqrt{ \beta }
+\end{equation}
+
+\subsection{Ecuacion modelada}
+
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{v_exp_mod.png}
+    \caption{Datos experimentales en azul y modelo en línea Naranja}
+    \label{fig:exp_vs_mod}
+\end{figure}
+
+El modelo:
+$$ V_{circ} = \frac{\sqrt{M_b}R}{(R^2+b_b^2)^{3/4}} + 
+\frac{\sqrt{M_d}R}{(R^2+(b_d+a_d)^2)^{3/4}} +
+\frac{\sqrt{M_h}}{(R^2+a_h^2)^{1/4}} $$
+
+\section{Conclusion}
+Vemos una evidente relacion directa o una tendencia similar entre la curva generada por el modelo y el comportamiento de los datos experimentales, es decir los datos obtenidos a partir de la informacion disponible.
+
+\end{document}
